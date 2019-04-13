@@ -1,0 +1,36 @@
+*Nonfunctional Requirements:
+1.Operational Requirements
+	1.1. This system will operate on Android and IOS.
+	1.2. This system should have accsess to web.
+	1.3. This system should automatically back up weekly.
+2.Performance Requirements
+	2.1. This system should store and retrieve the booklets and books less than 1 second.
+	2.2. This system should authenticate each user less than 3 seconds.
+	2.3. This system should analyze profile of user and retreive appropriate events less than 5 seconds.
+	2.4. A booklet should be uploaded in a good speed depending on the size of booklet and the spped of internet.
+3. Security Requirements
+	3.1. Only students of the university should accsess the system.
+	3.2. The authentication of students goes via an API designed by university only for this system.
+	3.3. The user have the right to determine whether other users can see his/her profile or not and the system will respect this choice.
+4. Cultural and Political Requirements
+	4.1. No special cultural and political requirements are anticipated.
+*Functional Requirements
+1. Login and user management
+	1.1. Student of the university logins to system.
+	1.2. Student updates his/her profile.
+	1.3. Student sees the profile of other users (if he/she has the right to)
+2. Booklet sharing
+	2.1. Student uploads a booklet.
+	2.2. Student searches desired booklets.
+	2.3. Student downloads booklets he/she wants.
+	2.4. Student rates booklets.
+3. Book sale
+	3.1. Student registers an ad about a book he/she wants to sell.
+	3.2. Student sees the ads and sees the details of an ad he/she wants.
+	3.3. Student searches among ads.
+4. Events
+	4.1. Student sees the events based on his/her interests registered in his/her profile.
+	4.2. Student sees the events details listed in the result.
+	4.3. Student searches among the events.
+5. management for uploads 
+	5.1 manager should be able to verify the handouts
